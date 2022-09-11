@@ -1,7 +1,7 @@
 import java.awt.*;
 import java.awt.event.*;
 
-class Signup extends Frame {
+public class Signup extends Frame {
     Signup() {
 
         setLayout(null);
@@ -70,8 +70,8 @@ class Signup extends Frame {
         setVisible(true);
         setSize(800, 800);
         setTitle("Railway Reservation System");
-        // setLayout(new FlowLayout());
-        setResizable(false);
+        setLayout(new FlowLayout());
+        // setResizable(true);
     }
 
     public static void main(String[] args) {
